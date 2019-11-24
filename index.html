@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <title>Title</title>
+</head>
+<body style="background-color:skyblue;">
+
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+</div>
+
+
+
+<h1 id="menu">Hello World</h1>
+<p style="font-size:2vw">This is a paragraph. It is very interesting how this kind of thing works. the idea is that the
+    content resizes to fit
+    the window. Also the text size changes depending on the window size.</p>
+
+
+<div id="content" class="content">
+    <img id="dwayne" class="mySlides animate-right display-center" src="resources/dwayne.jpg">
+    <img id="dwayne2" class="mySlides animate-right display-center" src="resources/dwayne2.jpg">
+    <img id="dwayne3" class="mySlides animate-right display-center" src="resources/dwayne3.jpg">
+    <img id="dwayne4" class="mySlides animate-right display-center" src="resources/dwayne4.jpg">
+    <img id="dwayne5" class="mySlides animate-right display-center" src="resources/dwayne5.jpg">
+    <img id="dwayne6" class="mySlides animate-right display-center" src="resources/dwayne6.jpg">
+
+    <button class="arrow-button display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="arrow-button display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+<div class="left">
+    <p>Left Menu</p>
+</div>
+
+<div class="main">
+    <p>Main Content</p>
+</div>
+
+<div class="right">
+    <p>Right Content</p>
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script type="text/javascript" src="script/goUpScript.js"></script>
+
+
+</body>
+</html>
